@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="phn.css"> -->
+    <!-- <link rel="stylesheet" media="screen and (max-width:1165px)" href="phn.css"> -->
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="clockcontainer">
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="seconds"></div>
+        <span id="time"></span>
+    </div>
+        <span id="i">I</span>
+        <span id="ty">Thank You</span>
+        <span id="share">For Sharing</span>
+        <span id="part">The Part</span>
+        <span id="yourtime">Of Your Time.</span>
+        <div id="para">After seeing this clock may you be reminded of your good times.</div>
+        <footer>
+            Made with love by:
+            <span id="name">Shiva Chaubey</span>
+
+        </footer>
+    <script>
+        
+        setInterval(() => {
+            time.innerHTML = new Date();
+            
+        }, 1000);
+    </script>
+</body>
+</html>

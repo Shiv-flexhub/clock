@@ -1,0 +1,111 @@
+body{
+    position: relative;
+    background-color:bisque;
+}
+
+#clockcontainer{
+    position: absolute;     /*by applying this here clockcontainer becomes the parent element of its inside element and the site becomes responsive*/
+    height: 40vw;
+    width: 40vw;
+    /* height: 440px;
+    width: 440px; */
+    background:url(clock1.png) no-repeat;
+    margin: auto;
+    margin-top: 35px;
+    background-size: 100%;
+    left: 27%;
+}
+#hour,#minute,#seconds{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.55%;
+    height: 22%;
+    top: 28.3%;
+    left: 49.3%;
+}
+#minute{
+    width: 1.4%;
+    height: 31%;
+    top: 19.42%;
+    left: 49.38%;
+    
+}
+#seconds{
+    
+    width: 1%;
+    height: 32%;
+    top: 18.3%;
+    left: 49.62%;
+}
+
+#time{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    top: 108%;
+    left: 13%;
+}
+
+#i,#ty,#share,#part,#yourtime{
+    font-family: 'Titillium Web', sans-serif;
+    position: absolute;
+    font-weight: bolder;
+    
+}
+#i{
+    top: 127px;
+    left: 3.5%;
+    font-size: 81px;
+}
+#ty{
+    top: 239px;
+    font-size: 51px;
+    left: 3.2%;
+    line-height: 35px;
+    
+}
+#share{
+    top: 9.5em;
+    left: 3.5%;
+    font-size: 30px;
+    line-height: 32px;
+}
+#part{
+    top: 8em;
+    left: 3%;
+    font-size: 40px;
+    line-height: 38px;
+}
+#yourtime{
+    top: 11em;
+    left: 3.5%;
+    font-size: 33px;
+    line-height: 35px;
+}
+
+#para{
+    position: absolute;
+    font-size: 49px;
+    left: 70%;
+    top: 90px;
+    line-height: 51px;
+    font-weight: bolder;
+}
+
+footer{
+    position: absolute;
+    left: 79%;
+    top: 27em;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+#name{
+    font-size: 33px;
+    font-family: cursive;
+    line-height: 23px;
+}
